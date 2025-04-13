@@ -1,30 +1,36 @@
 # **Single-Cell Analysis Coursework Projects**
 
-This repository contains coursework projects on **single-cell analysis** completed as part of my studies. The projects include studies on **malaria-infected mice**, **B-cell trajectory analysis using PAGA**, and **comparisons of pseudobulk performance** using **Harmony** and **BBKNN** integration methods. These projects aim to understand cellular behaviors, gene expression patterns, and developmental trajectories in the context of disease models.
+This repository contains coursework projects on **single-cell analysis** and related methods, focusing on **malaria-infected mice**, **B-cell trajectory analysis using PAGA**, and **comparisons of pseudobulk performance** using **Harmony** and **BBKNN** integration methods. 
+
+The repository provides key insights and findings derived from the **single-cell RNA sequencing (scRNA-seq)** analysis.
 
 ---
 
-## **Projects**
+## **Key Findings from the Report**
 
-### **1. Malaria-Infected Mice Single-Cell Analysis**  
-This project involves analyzing **single-cell RNA sequencing (scRNA-seq)** data from **malaria-infected mice**. The analysis includes **quality control**, **data integration**, and **identification of differentially expressed genes** between infected and non-infected cells.
+### **1. Malaria-Infected Mice Single-Cell Analysis**
+The analysis of **malaria-infected mice** revealed several important insights:
+- **Differential expression analysis** showed a strong contrast between infected and non-infected cells, with numerous **genes related to immune response** being upregulated in the infected mice.
+- The scRNA-seq data was cleaned and normalized to ensure **quality control** before the analysis, resulting in highly accurate gene expression results.
+- **Clusters of interest** were identified within the immune cells, providing insights into the immune response to malaria infection.
 
----
+### **2. B-cell Trajectory Analysis using PAGA**
+- The **B-cell trajectory analysis** using **PAGA** highlighted the **differentiation pathways** of B-cells in malaria-infected mice. 
+- The analysis showed that B-cells undergo significant changes in response to infection, revealing distinct **subpopulations** at various differentiation stages.
+- The **PAGA method** allowed for a clear visualization of these differentiation processes, identifying **key markers** associated with the various B-cell states.
 
-### **2. B-cell Trajectory Analysis using PAGA**  
-This project focuses on the **trajectory analysis of B-cells** from malaria-infected mice using **PAGA** (Partition-based graph abstraction). PAGA allows the exploration of **cell differentiation processes**, showing how the **B-cells** evolve across different states under disease conditions.
-
----
-
-### **3. Pseudobulk Performance Comparison**  
-This project compares the performance of **pseudobulk analysis** using **Harmony** and **BBKNN** integration methods. The aim is to evaluate the **robustness** of these methods in the integration of **multi-sample scRNA-seq data** and their ability to **identify differentially expressed genes (DEGs)** accurately.
+### **3. Pseudobulk Performance Comparison (Harmony vs. BBKNN)**
+- The comparison of **pseudobulk analysis** using **Harmony** and **BBKNN** integration methods showed that both methods have their strengths:
+  - **Harmony** was particularly effective in integrating data from multiple samples and removing batch effects, providing a more accurate representation of gene expression patterns.
+  - **BBKNN** demonstrated better performance in clustering and identifying subpopulations within the data, offering complementary insights when combined with Harmony.
+- Overall, the **pseudobulk analysis** provided accurate results in identifying **differentially expressed genes (DEGs)** across different conditions, with both methods proving useful for downstream analysis.
 
 ---
 
 ## **Files**
 
 - **`single_cell_exploration_notebook.ipynb`**: The Jupyter notebook containing the full **analysis workflow** for **single-cell analysis** of malaria-infected mice.
-- **`single_cell_exploration_notebook.pdf`**: **PDF version** of the notebook for **easy sharing** and **reference**.
+- **`single_cell_exploration_notebook.pdf`**: **PDF version** of the notebook for easy sharing and reference.
 
 ---
 
@@ -39,3 +45,17 @@ This project requires several Python libraries for **data analysis** and **visua
 1. **Clone the repository** to your local machine.
 2. **Navigate** to the project directory.
 3. **Open the notebook** in **Jupyter** and follow the instructions within the notebook to run the analysis.
+
+---
+
+## **License**
+
+This project is licensed under the **MIT License** - see the **[LICENSE](LICENSE)** file for details.
+
+---
+
+## **Acknowledgments**
+
+- Special thanks to the **Scanpy** documentation and community for providing resources on **single-cell RNA-seq analysis**.
+- Thanks to **PAGA** for the **trajectory analysis** and **visualization tools**.
+- **Harmony** and **BBKNN** have been integral in the **data integration** process.
