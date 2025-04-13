@@ -17,7 +17,7 @@ The analysis of **malaria-infected mice** revealed several important insights:
 ### **2. B-cell Trajectory Analysis using PAGA**
 - The **B-cell trajectory analysis** using **PAGA** highlighted the **differentiation pathways** of B-cells in malaria-infected mice. 
 - The analysis showed that B-cells undergo significant changes in response to infection, revealing distinct **subpopulations** at various differentiation stages.
-- The **PAGA method** allowed for a clear visualization of these differentiation processes, identifying **key markers** associated with the various B-cell states.
+- The **PAGA method** allowed for a clear visualization of these differentiation processes, identifying the transition of B-cells within their life cycle states like pre-B cell, intermediate B cell stages and mature B cell stages.
 
 ### **3. Pseudobulk Performance Comparison (Harmony vs. BBKNN)**
 - The comparison of **pseudobulk analysis** using **Harmony** and **BBKNN** integration methods showed that both methods have their strengths:
@@ -48,14 +48,3 @@ This project requires several Python libraries for **data analysis** and **visua
 
 ---
 
-## **License**
-
-This project is licensed under the **MIT License** - see the **[LICENSE](LICENSE)** file for details.
-
----
-
-## **Acknowledgments**
-
-- Special thanks to the **Scanpy** documentation and community for providing resources on **single-cell RNA-seq analysis**.
-- Thanks to **PAGA** for the **trajectory analysis** and **visualization tools**.
-- **Harmony** and **BBKNN** have been integral in the **data integration** process.
